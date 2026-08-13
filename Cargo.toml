@@ -1,0 +1,14 @@
+[package]
+name = "traffic-logger"
+version = "1.0.0"
+edition = "2024"
+
+[dependencies]
+chrono = "0.4.45"
+colored = "3.1.1"
+sysinfo = "0.38.4"
+windivert = "0.6.0"
+winres = "0.1.12"
+
+[build-dependencies]
+winres = "0.1"
